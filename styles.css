@@ -29,9 +29,17 @@ body.loading .anim {
 /* Loading Animation Ends */
 
 .header_input {
-  width: 75%;
+  width: 100%;
   align-items: center;
 }
+
+h1#header {
+    margin-top: 0 !important;
+    border-radius: 0px;
+    box-shadow: 1px 1rem 2rem 4px rgba(0,0,0,.1);
+    padding: 1rem !important;
+}
+
 .error {
   width: 75%;
   margin: auto;
